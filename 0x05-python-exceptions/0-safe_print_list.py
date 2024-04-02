@@ -7,8 +7,8 @@ def safe_print_list(my_list=[], x=0):
         my_list (list): The list to print elements from.
         x (int): The number of elements of my_list to print.
 
-    Return:
-        The number of printed elements
+    Returns:
+        The number of elements printed.
     """
     ret = 0
     for i in range(x):
@@ -18,4 +18,4 @@ def safe_print_list(my_list=[], x=0):
         except IndexError:
             break
     print("")
-    return (retu)
+    return (ret)
