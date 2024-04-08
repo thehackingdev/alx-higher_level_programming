@@ -3,8 +3,7 @@
 
 
 class Rectangle:
-    """Takes in args for width and height of a rectangle, and contains methods
-    for calculation of the area or perimeter.
+    """Takes in args for width and height of a rectangle.
 
     __str__, __repr__, and __del__ fuctionality defined below.
 
@@ -132,7 +131,8 @@ class Rectangle:
         """Allows direct printing of instances.
 
         Returns:
-         creates a string representation of the rectangle suitable for printing.
+            The output of _draw_rectangle, which creates a string
+        representation of the rectangle suitable for printing.
 
         """
         return self._draw_rectangle()
