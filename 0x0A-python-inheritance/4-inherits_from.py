@@ -4,7 +4,8 @@
 
 
 def inherits_from(obj, a_class):
-    """ Check for direct or indirect inheritance """
-    if (type(obj) != a_class):
-        return isinstance(obj, a_class)
-    return False
+    """Return whether objct inherits from a_class.
+    obj: an object.
+    a_class: a class.
+    """
+    return(issubclass(type(obj), a_class) and not (type(obj) is a_class))
