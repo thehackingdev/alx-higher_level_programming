@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""4-inherits_from.py
+"""
+inherits_from function module.
+
+Define inherits_from function.
 """
 
 
 def inherits_from(obj, a_class):
-    """Return whether objct inherits from a_class.
+    """Return whether obj inherits from a_class.
     obj: an object.
     a_class: a class.
     """
