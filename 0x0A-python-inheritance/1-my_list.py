@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-===========================
-class MyList modula
-===========================
+contains the MyList class module
 """
 
 
 class MyList(list):
-    """Class with method print_sorted"""
-    pass
+    """a subclass of list"""
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
 
     def print_sorted(self):
-        """Method that sorted a list"""
+        """prints the sorted list"""
+        print(sorted(self))
 
-        print(sorted(list(self)))
