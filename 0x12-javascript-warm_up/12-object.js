@@ -1,8 +1,5 @@
 #!/usr/bin/node
-
 //script that replaces value 12 with 89
-
-
 const myObject = {
   type: 'object',
   value: 12
